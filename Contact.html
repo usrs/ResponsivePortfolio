@@ -16,7 +16,7 @@
  <title>Contact Me</title>
 </head>
 <header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <nav class="navbar navbar-expand-lg bg-light">
     <a class="navbar-brand" href="#">Nathan McNeil</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
       aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,21 +41,25 @@
 </header>
 <body>
   <div class="container">
+    <div class="row-span">
+      <p>Feel free to reach out to me via the form below, or contacting me on one of the social media platforms below!</p>
+      <div class="row">
+        <div class="col-4"><a href="https://www.linkedin.com/in/nathan-mcneil-design/">LinkdIn</a></div>
+        <div class="col-4"><a href="https://twitter.com/futuraaaaa">Twitter</a></div>
+        <div class="col-4"><a href="https://github.com/usrs">GitHub</a></div>
+      </div>
+    </div>
 <form>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
     <label for="InputName1">Full Name</label>
     <input type="text" class="form-control" id="InputName1">
+    <label for="FormControlTextarea1">Message</label>
+    <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea><br>
+    <button type="submit" class="btn btn-primary">Submit</button>
   </div>
-    <div class="form-group">
-      <label for="FormControlTextarea1">Message</label>
-      <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
-    </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 </div>
 </body>
